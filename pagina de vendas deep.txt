@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>12 Portais de Consciência</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#001F3F',
+                        gold: '#D4AF37',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-navy text-white font-sans">
+    <!-- Navigation -->
+    <nav class="bg-navy/90 backdrop-blur-md fixed w-full z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-bold text-gold">12 Portais</div>
+            <div class="hidden md:flex space-x-8">
+                <a href="#method" class="hover:text-gold transition">O Método</a>
+                <a href="#testimonials" class="hover:text-gold transition">Depoimentos</a>
+                <a href="#offer" class="hover:text-gold transition">Oferta</a>
+            </div>
+            <a href="#offer" class="bg-gold text-navy px-6 py-3 rounded-full font-bold hover:bg-gold/90 transition">Desbloquear Meus Portais</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center pt-20">
+        <div class="container mx-auto px-6 py-20 text-center">
+            <h1 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
+                A Engenharia da Sua Evolução: <br>
+                <span class="text-gold">Desbloqueie os 12 Portais de Consciência</span> <br>
+                e Pare de Repetir os Mesmos Padrões de Vida.
+            </h1>
+            <p class="text-xl mb-12 max-w-3xl mx-auto">
+                Métodos tradicionais são rasos, desconectados da realidade e não geram mudança sustentável.
+            </p>
+            <a href="#offer" class="bg-gold text-navy px-10 py-5 rounded-full text-xl font-bold hover:bg-gold/90 transition inline-block">
+                Desbloquear Meus Portais
+            </a>
+        </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section class="py-20 bg-navy/70">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">O Que Te Impede de Evoluir?</h2>
+            <div class="grid md:grid-cols-3 gap-10">
+                <div class="bg-white/10 p-8 rounded-xl backdrop-blur-sm border border-white/10">
+                    <i data-feather="alert-circle" class="w-12 h-12 text-gold mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">Sensação constante de estagnação e bloqueio interno</h3>
+                    <p>Aquele sentimento de estar preso em ciclos repetitivos, mesmo quando você tenta mudar.</p>
+                </div>
+                <div class="bg-white/10 p-8 rounded-xl backdrop-blur-sm border border-white/10">
+                    <i data-feather="heart" class="w-12 h-12 text-gold mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">Confusão emocional e repetição das mesmas decisões</h3>
+                    <p>Tomar as mesmas escolhas que não servem mais, mesmo sabendo que deveria mudar.</p>
+                </div>
+                <div class="bg-white/10 p-8 rounded-xl backdrop-blur-sm border border-white/10">
+                    <i data-feather="compass" class="w-12 h-12 text-gold mb-4"></i>
+                    <h3 class="text-xl font-bold mb-4">Busca por sentido sem clareza ou direção real</h3>
+                    <p>Sentir que há algo maior, mas sem um mapa prático para alcançar essa evolução.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Method Section -->
+    <section id="method" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16">O Método — <span class="text-gold">12 Portais de Consciência</span></h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Portal 1 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 1</div>
+                    <h3 class="text-xl font-bold mb-2">Consciência de Si</h3>
+                    <p class="text-white/80">Reconhecimento dos próprios padrões internos e do estado atual de consciência.</p>
+                </div>
+                
+                <!-- Portal 2 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 2</div>
+                    <h3 class="text-xl font-bold mb-2">Presença</h3>
+                    <p class="text-white/80">Saída do modo automático e conexão com o momento presente.</p>
+                </div>
+                
+                <!-- Portal 3 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 3</div>
+                    <h3 class="text-xl font-bold mb-2">Cura Emocional</h3>
+                    <p class="text-white/80">Liberação de cargas emocionais acumuladas ao longo da vida.</p>
+                </div>
+                
+                <!-- Portal 4 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 4</div>
+                    <h3 class="text-xl font-bold mb-2">Quebra de Padrões</h3>
+                    <p class="text-white/80">Interrupção consciente de ciclos repetitivos e autossabotagem.</p>
+                </div>
+                
+                <!-- Portal 5 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 5</div>
+                    <h3 class="text-xl font-bold mb-2">Identidade Autêntica</h3>
+                    <p class="text-white/80">Reconexão com quem você é além de condicionamentos e máscaras sociais.</p>
+                </div>
+                
+                <!-- Portal 6 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 6</div>
+                    <h3 class="text-xl font-bold mb-2">Corpo e Energia</h3>
+                    <p class="text-white/80">Alinhamento entre corpo físico, emoções e energia vital.</p>
+                </div>
+                
+                <!-- Portal 7 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 7</div>
+                    <h3 class="text-xl font-bold mb-2">Mente e Direcionamento</h3>
+                    <p class="text-white/80">Clareza mental para decisões conscientes e alinhadas.</p>
+                </div>
+                
+                <!-- Portal 8 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 8</div>
+                    <h3 class="text-xl font-bold mb-2">Consciência Expandida</h3>
+                    <p class="text-white/80">Ampliação da percepção e compreensão da própria realidade.</p>
+                </div>
+                
+                <!-- Portal 9 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 9</div>
+                    <h3 class="text-xl font-bold mb-2">Integração Interna</h3>
+                    <p class="text-white/80">Unificação entre pensamento, emoção e ação.</p>
+                </div>
+                
+                <!-- Portal 10 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 10</div>
+                    <h3 class="text-xl font-bold mb-2">Propósito</h3>
+                    <p class="text-white/80">Compreensão do próprio caminho e direção de vida.</p>
+                </div>
+                
+                <!-- Portal 11 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 11</div>
+                    <h3 class="text-xl font-bold mb-2">Expressão Verdadeira</h3>
+                    <p class="text-white/80">Comunicação autêntica e alinhada com a verdade interna.</p>
+                </div>
+                
+                <!-- Portal 12 -->
+                <div class="bg-white/5 p-6 rounded-xl border border-white/10 hover:border-gold/50 transition">
+                    <div class="text-gold text-2xl font-bold mb-2">Portal 12</div>
+                    <h3 class="text-xl font-bold mb-2">Unidade e Lucidez</h3>
+                    <p class="text-white/80">Estado de clareza, coerência interna e presença contínua.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Differential Section -->
+    <section class="py-20 bg-white/5">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+            <h2 class="text-3xl font-bold mb-6">Diferencial — <span class="text-gold">Engenharia da Alma</span></h2>
+            <p class="text-xl mb-8">
+                Nosso método une lógica, estrutura e consciência racional com espiritualidade aplicada à vida real. 
+                Não é teoria abstrata, mas sim prática integrada focada em transformação interna concreta.
+            </p>
+            <div class="grid md:grid-cols-2 gap-8 mt-12">
+                <div class="text-left">
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <i data-feather="check-circle" class="text-gold mr-2"></i> Abordagem Estruturada
+                    </h3>
+                    <p>Passo a passo claro para evolução consciente, sem misticismo vago.</p>
+                </div>
+                <div class="text-left">
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <i data-feather="check-circle" class="text-gold mr-2"></i> Resultados Mensuráveis
+                    </h3>
+                    <p>Métricas claras de progresso em cada portal de consciência.</p>
+                </div>
+                <div class="text-left">
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <i data-feather="check-circle" class="text-gold mr-2"></i> Integração Prática
+                    </h3>
+                    <p>Exercícios diários para incorporar a mudança na rotina.</p>
+                </div>
+                <div class="text-left">
+                    <h3 class="text-xl font-bold mb-4 flex items-center">
+                        <i data-feather="check-circle" class="text-gold mr-2"></i> Base Científica
+                    </h3>
+                    <p>Fundamentado em neurociência, psicologia e tradições de autoconhecimento.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-4">Mais de <span class="text-gold">2.000 alunos</span> já passaram pelos 12 Portais de Consciência</h2>
+            <p class="text-center mb-16">Veja o que alguns deles têm a dizer:</p>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white/5 p-8 rounded-xl border border-white/10">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/100x100/1" alt="Ana" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Ana L.</h4>
+                            <div class="flex text-gold">
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"Finalmente consegui quebrar padrões que me acompanhavam há anos. O Portal 4 mudou minha vida completamente."</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white/5 p-8 rounded-xl border border-white/10">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/100x100/2" alt="Carlos" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Carlos R.</h4>
+                            <div class="flex text-gold">
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"A clareza mental que obtive com o Portal 7 me ajudou a tomar decisões que estavam paralisando minha vida profissional."</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white/5 p-8 rounded-xl border border-white/10">
+                    <div class="flex items-center mb-4">
+                        <img src="http://static.photos/people/100x100/3" alt="Mariana" class="w-12 h-12 rounded-full mr-4">
+                        <div>
+                            <h4 class="font-bold">Mariana S.</h4>
+                            <div class="flex text-gold">
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                                <i data-feather="star" class="w-4 h-4 fill-current"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>"O trabalho com o Portal 3 de cura emocional foi profundamente transformador. Sinto-me mais leve e presente."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Offer Section -->
+    <section id="offer" class="py-20 bg-gradient-to-b from-white/5 to-transparent">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <div class="bg-white/5 border border-gold/30 rounded-xl p-10 backdrop-blur-sm">
+                <div class="text-center mb-10">
+                    <h2 class="text-3xl font-bold mb-4">Acesso aos <span class="text-gold">12 Portais de Consciência</span></h2>
+                    <div class="text-4xl font-bold text-gold mb-2">De R$ 497,00 por</div>
+                    <div class="text-6xl font-bold mb-6">R$ 97,00</div>
+                    <a href="#checkout" class="bg-gold text-navy px-10 py-5 rounded-full text-xl font-bold hover:bg-gold/90 transition inline-block">
+                        Desbloquear Meus Portais
+                    </a>
+                </div>
+                
+                <div class="border-t border-white/10 pt-10">
+                    <h3 class="text-xl font-bold mb-6 text-center">Bônus Exclusivos</h3>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i data-feather="gift" class="text-gold mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold">Livro digital "Reprogramação da Alma"</h4>
+                                <p class="text-white/80">Guia complementar para aprofundar sua transformação.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="gift" class="text-gold mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold">Meditação Guiada de Integração</h4>
+                                <p class="text-white/80">Áudio especial para consolidar seu aprendizado.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="gift" class="text-gold mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold">Códigos Numéricos de Realinhamento Energético</h4>
+                                <p class="text-white/80">Técnica exclusiva para equilíbrio imediato.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <i data-feather="gift" class="text-gold mr-4 mt-1"></i>
+                            <div>
+                                <h4 class="font-bold">Caderno de Integração Engenharia da Alma</h4>
+                                <p class="text-white/80">Exercícios práticos para cada portal.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="mt-10 text-center">
+                    <div class="inline-block bg-white/10 px-6 py-3 rounded-full border border-gold/30">
+                        <i data-feather="shield" class="inline-block text-gold mr-2"></i>
+                        <span>Garantia incondicional de 7 dias</span>
+                    </div>
+                    <p class="mt-4 text-sm">Caso não faça sentido para você, basta solicitar o reembolso dentro desse prazo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-16">Perguntas Frequentes</h2>
+            
+            <div class="space-y-8">
+                <!-- FAQ 1 -->
+                <div class="border-b border-white/10 pb-8">
+                    <h3 class="text-xl font-bold mb-4">Para quem é o método?</h3>
+                    <p>O método 12 Portais de Consciência é para pessoas que sentem que estão repetindo padrões de vida, vivendo no automático ou sem clareza emocional e direção interna. É indicado para quem busca consciência, equilíbrio e transformação prática, independentemente de crenças religiosas.</p>
+                </div>
+                
+                <!-- FAQ 2 -->
+                <div class="border-b border-white/10 pb-8">
+                    <h3 class="text-xl font-bold mb-4">Como funciona o acesso?</h3>
+                    <p>Após a confirmação do pagamento, o acesso é liberado imediatamente em uma plataforma digital segura. Todo o conteúdo fica disponível para assistir e praticar no seu próprio ritmo, de onde estiver.</p>
+                </div>
+                
+                <!-- FAQ 3 -->
+                <div class="border-b border-white/10 pb-8">
+                    <h3 class="text-xl font-bold mb-4">Preciso ter experiência espiritual?</h3>
+                    <p>Não. O método foi desenvolvido para pessoas comuns, mesmo sem qualquer experiência espiritual prévia. Tudo é apresentado de forma clara, prática e acessível.</p>
+                </div>
+                
+                <!-- FAQ 4 -->
+                <div class="pb-8">
+                    <h3 class="text-xl font-bold mb-4">Como funciona a garantia?</h3>
+                    <p>Você tem 7 dias de garantia incondicional. Se sentir que o método não é para você, basta solicitar o reembolso dentro desse prazo e o valor será devolvido integralmente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 bg-gradient-to-b from-white/5 to-transparent">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Pronto para Desbloquear Seus <span class="text-gold">12 Portais de Consciência</span>?</h2>
+            <p class="text-xl mb-10 max-w-2xl mx-auto">Comece hoje sua jornada de transformação prática e consciente.</p>
+            <a href="#offer" class="bg-gold text-navy px-10 py-5 rounded-full text-xl font-bold hover:bg-gold/90 transition inline-block">
+                Desbloquear Meus Portais
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 border-t border-white/10">
+        <div class="container mx-auto px-6 text-center">
+            <p>© 2023 12 Portais de Consciência. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
